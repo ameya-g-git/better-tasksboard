@@ -1,0 +1,15 @@
+.iyBvIw .hDiIMa, .laClUF, [tabindex="\30 "] > :nth-child(2) > :first-child > div { /* general text */
+    color: var(--arc-palette-title) !important;
+  }
+  
+  div.sc-btIRyd, .ant-collapse .ant-collapse-item :last-child > div { /* grayed out text */
+    color: var(--arc-palette-focus) !important;
+  }
+  
+  [style=""] [href="\/app"] svg [y="\31 8"], .jhAXle [d] { /* logo + icons */ 
+    fill: var(--arc-palette-maxContrastColor) !important;
+  }
+  
+  [tabindex="\30 "] b, [tabindex="\30 "] .sc-hKMtZM svg [d] {
+    color: var(--arc-palette-maxContrastColor) !important;
+  }
