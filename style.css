@@ -1,15 +1,44 @@
 .iyBvIw .hDiIMa, .laClUF, [tabindex="\30 "] > :nth-child(2) > :first-child > div { /* general text */
-    color: var(--arc-palette-title) !important;
-  }
-  
-  div.sc-btIRyd, .ant-collapse .ant-collapse-item :last-child > div { /* grayed out text */
-    color: var(--arc-palette-focus) !important;
-  }
-  
-  [style=""] [href="\/app"] svg [y="\31 8"], .jhAXle [d] { /* logo + icons */ 
-    fill: var(--arc-palette-maxContrastColor) !important;
-  }
-  
-  [tabindex="\30 "] b, [tabindex="\30 "] .sc-hKMtZM svg [d] {
-    color: var(--arc-palette-maxContrastColor) !important;
-  }
+  color: var(--arc-palette-title) !important;
+}
+
+div.sc-btIRyd, .ant-collapse .ant-collapse-item :last-child > div { /* grayed out text */
+  color: var(--arc-palette-focus) !important;
+}
+
+[style=""] [href="\/app"] svg [y="\31 8"], .jhAXle [d] { /* logo + icons */ 
+  fill: var(--arc-palette-maxContrastColor) !important;
+}
+
+[tabindex="\30 "] .sc-hKMtZM svg [d] { /* + icon */
+  color: var(--arc-palette-maxContrastColor);
+}
+
+[tabindex="\30 "] b { /* date for task (still needs to be worked on to be adaptable depending on due date of task */
+  color: var(--arc-palette-maxContrastColor);
+}
+
+[style=""] [href="\/app"] svg [x="\37 0"] { /* tasksboard logo bigger rectangle */
+  fill: var(--arc-palette-foregroundSecondary) !important;
+}
+
+[style="color-scheme\:\ light"] [style=""] [href="\/app"] .sc-eYPhOV { /* tasksboard title */
+  color: var(--arc-palette-maxContrastColor) !important;
+}
+
+.hmgRzM, .jhAXle { /* background */
+  background: var(--arc-palette-background) !important;
+}
+
+.sc-enyVUO div { /* board name */
+  color: var(--arc-palette-title) !important;
+}
+
+[style=""] > :nth-child(2) > div:has(svg) { /* search bar */
+  background: var(--arc-palette-backgroundExtra) !important;
+}
+
+svg[d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"], [data-rbd-droppable-id="board"] [tabindex="\30 "] #text { /* add a task button */
+  color: var(--arc-palette-maxContrastColor);
+}
+
